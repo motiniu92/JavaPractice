@@ -5,7 +5,7 @@ public class Rectangle extends GeometricObject {
     private double height;
 
     public Rectangle() {
-        super();
+
 
     }
 
