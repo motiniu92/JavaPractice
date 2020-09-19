@@ -1,4 +1,4 @@
-package com.chapter20;
+package com.chapter20.section05;
 
 public class Circle extends GeometricObject {
 
