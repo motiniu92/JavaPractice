@@ -1,7 +1,6 @@
-package com.example20;
+package com.excersize20;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.PriorityQueue;
 import java.util.Scanner;
