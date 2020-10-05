@@ -1,14 +1,15 @@
 package com.chapter21.section02;
 
-import java.util.HashSet;
-import java.util.Set;
 
-public class TestHashSet {
+import java.util.*;
+
+public class TestLinkedHashSet {
+
     public static void main(String[] args) {
         // Create a hash set
-        Set<String> set = new HashSet<>();
+        Set<String> set = new LinkedHashSet<>();
 
-        // Add Strings to the set
+        // Add strings to the set
         set.add("London");
         set.add("Paris");
         set.add("New York");
@@ -19,12 +20,8 @@ public class TestHashSet {
         System.out.println(set);
 
         // Display the elements in the hash set
-        for (String s : set) {
-            System.out.print(s.toUpperCase() + "  ");
-
+        for (Object element: set){
+            System.out.print(element + " ");
         }
-
-
     }
-
 }
