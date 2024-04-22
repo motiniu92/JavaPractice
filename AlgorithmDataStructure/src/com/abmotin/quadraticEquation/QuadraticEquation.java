@@ -1,10 +1,8 @@
-package com.abmotin.quadratic;
+package com.abmotin.quadraticEquation;
 
 import java.util.Scanner;
 
-import static java.lang.Math.*;
-
-public class Quadratic {
+public class QuadraticEquation {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter the values of a b c : ");
