@@ -2,7 +2,7 @@ package com.abmotin.array;
 
 public class FindLargestThreeElementInArray {
     public static void main(String[] args) {
-        int arr[] = {12, 13, 1, 10, 34, 1};
+        int[] arr = {12, 13, 1, 10, 34, 1};
         int n = arr.length;
         print3largest(arr, n);
     }
